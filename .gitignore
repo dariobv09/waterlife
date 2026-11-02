@@ -1,0 +1,5 @@
+# Publish only the current standalone game and its documentation.
+/*
+!/.gitignore
+!/README.md
+!/ABYSS-v05.html
