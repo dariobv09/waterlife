@@ -4,6 +4,8 @@ Juego de supervivencia y exploración submarina en 3D, creado con Three.js.
 
 ## Jugar
 
+Juega online en https://waterlife-sigma.vercel.app/.
+
 Descarga `ABYSS-v05.html` y ábrelo directamente en Edge, Chrome o Firefox. Es un único HTML autocontenido y no necesita conexión a Internet.
 
 Pulsa **Comenzar** y después **Haz clic para controlar al buceador**. El juego requiere captura real del ratón; algunos visores integrados no la permiten. **Esc** libera el cursor y abre el menú.
@@ -28,3 +30,7 @@ Incluye cuatro zonas, oxígeno, energía, mochila, túneles naturales y guardado
 ## Versión
 
 La versión actual es **0.5**, con captura real del ratón y taller separado del clic izquierdo. Three.js se distribuye integrado en el HTML con su aviso de licencia.
+
+## Despliegue en Vercel
+
+`index.html` es la página de entrada y contiene el mismo juego que `ABYSS-v05.html`. Al actualizar el juego, actualiza ambos archivos. No hace falta instalar dependencias ni ejecutar una compilación. El proyecto utiliza la raíz del repositorio como directorio de publicación estática.
